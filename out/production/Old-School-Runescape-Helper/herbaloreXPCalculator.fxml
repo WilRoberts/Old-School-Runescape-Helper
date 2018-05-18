@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HerbaloreCalculatorController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label text="Guam Leaf" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+      <Label text="Grimy Herbs" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <Label text="Clean Herbs/Unf. Potions" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <Label text="Herbs Seeds" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <Label text="Misc." GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <Label text="Marrentill" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+      <Label text="Tarromin" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+      <Label text="Harralander" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+      <Label text="Ranarr Weed" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+      <Label text="Toadflax" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+      <Label text="Irit Leaf" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+      <Label text="Avantoe" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER" />
+      <Label text="Kwuarm" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER" />
+      <Label text="Snapdragon" GridPane.halignment="CENTER" GridPane.rowIndex="10" GridPane.valignment="CENTER" />
+      <Label text="Cadantine" GridPane.halignment="CENTER" GridPane.rowIndex="11" GridPane.valignment="CENTER" />
+      <Label text="Lantadyme" GridPane.halignment="CENTER" GridPane.rowIndex="12" GridPane.valignment="CENTER" />
+      <Label text="Dwarf Weed" GridPane.halignment="CENTER" GridPane.rowIndex="13" GridPane.valignment="CENTER" />
+      <Label text="Torstol" GridPane.halignment="CENTER" GridPane.rowIndex="14" GridPane.valignment="CENTER" />
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@imgs/Guam_leaf.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@imgs/Marrentill.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@imgs/Tarromin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@imgs/Harralander.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@imgs/Ranarr_weed.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="6">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@imgs/Toadflax.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@imgs/Irit_leaf.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@imgs/Avantoe.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@imgs/Kwuarm.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="10">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@imgs/Snapdragon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="11">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@imgs/Cadantine.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="12">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@imgs/Lantadyme.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="13">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@imgs/Dwarf_weed.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="14">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@imgs/Torstol.png" />
+         </image>
+      </ImageView>
+      <Button mnemonicParsing="false" onAction="#goToMainScene" text="&lt; Back To Main" GridPane.halignment="LEFT" GridPane.rowIndex="15" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+      </Button>
+      <TextField fx:id="grimyGuamLeaf" alignment="CENTER" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="grimyMarrentill" alignment="CENTER" text="0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="grimyTarromin" alignment="CENTER" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="grimyHarralander" alignment="CENTER" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="grimyRanarrWeed" alignment="CENTER" text="0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="grimyToadflax" alignment="CENTER" text="0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="grimyIritLeaf" alignment="CENTER" text="0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="grimyAvantoe" alignment="CENTER" text="0" GridPane.columnIndex="1" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="grimyKwuarm" alignment="CENTER" text="0" GridPane.columnIndex="1" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="grimySnapdragon" alignment="CENTER" text="0" GridPane.columnIndex="1" GridPane.rowIndex="10">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="grimyCadantine" alignment="CENTER" text="0" GridPane.columnIndex="1" GridPane.rowIndex="11">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="grimyLantadyme" alignment="CENTER" text="0" GridPane.columnIndex="1" GridPane.rowIndex="12">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="grimyDwarfWeed" alignment="CENTER" text="0" GridPane.columnIndex="1" GridPane.rowIndex="13">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="grimyTorstol" alignment="CENTER" text="0" GridPane.columnIndex="1" GridPane.rowIndex="14">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="cleanGuamLeaf" alignment="CENTER" text="0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="cleanMarrentill" alignment="CENTER" text="0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="cleanTarromin" alignment="CENTER" text="0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="cleanHarralander" alignment="CENTER" text="0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="cleanRanarrWeed" alignment="CENTER" text="0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="cleanToadflax" alignment="CENTER" text="0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="cleanIritLeaf" alignment="CENTER" text="0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="cleanAvantoe" alignment="CENTER" text="0" GridPane.columnIndex="2" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="cleanKwuarm" alignment="CENTER" text="0" GridPane.columnIndex="2" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="cleanSnapdragon" alignment="CENTER" text="0" GridPane.columnIndex="2" GridPane.rowIndex="10">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="cleanCadantine" alignment="CENTER" text="0" GridPane.columnIndex="2" GridPane.rowIndex="11">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="cleanLantadyme" alignment="CENTER" text="0" GridPane.columnIndex="2" GridPane.rowIndex="12">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="cleanDwarfWeed" alignment="CENTER" text="0" GridPane.columnIndex="2" GridPane.rowIndex="13">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="seedGuamLeaf" alignment="CENTER" text="0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="seedMarrentill" alignment="CENTER" text="0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="seedTarromin" alignment="CENTER" text="0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="seedHarralander" alignment="CENTER" text="0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="seedRanarrWeed" alignment="CENTER" text="0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="seedToadflax" alignment="CENTER" text="0" GridPane.columnIndex="3" GridPane.rowIndex="6">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="seedIritLeaf" alignment="CENTER" text="0" GridPane.columnIndex="3" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="seedAvantoe" alignment="CENTER" text="0" GridPane.columnIndex="3" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="seedKwuarm" alignment="CENTER" text="0" GridPane.columnIndex="3" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="seedSnapdragon" alignment="CENTER" text="0" GridPane.columnIndex="3" GridPane.rowIndex="10">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="seedCadantine" alignment="CENTER" text="0" GridPane.columnIndex="3" GridPane.rowIndex="11">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="seedLantadyme" alignment="CENTER" text="0" GridPane.columnIndex="3" GridPane.rowIndex="12">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="seedDwarfWeed" alignment="CENTER" text="0" GridPane.columnIndex="3" GridPane.rowIndex="13">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="seedTorstol" alignment="CENTER" text="0" GridPane.columnIndex="3" GridPane.rowIndex="14">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="totalXP" alignment="CENTER" text="0" GridPane.columnIndex="4" GridPane.rowIndex="15">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <Button fx:id="calculate" mnemonicParsing="false" onAction="#calculateTotalXP" text="Calculate Total Xp" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="16" GridPane.valignment="CENTER" />
+      <TextField fx:id="cleanTorstol" alignment="CENTER" text="0" GridPane.columnIndex="2" GridPane.rowIndex="14">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin>
+      </TextField>
+   </children>
+</GridPane>
